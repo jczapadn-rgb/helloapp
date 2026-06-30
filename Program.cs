@@ -1,4 +1,4 @@
-echo 'using System;
+using System;
 
 class Program
 {
@@ -11,4 +11,9 @@ class Program
     {
         Console.WriteLine("hello");
     }
-}' > Program.cs
+
+    static void greetWhite()
+    {
+        Console.WriteLine("hello white");
+    }
+}
