@@ -5,18 +5,22 @@ class Program
     static void Main(string[] args)
     {
         PrintHello();
+        greetWhite();
+        greetBlack();
     }
 
     static void PrintHello()
     {
         Console.WriteLine("hello everyone");
     }
-<<<<<<< HEAD
 
     static void greetWhite()
     {
         Console.WriteLine("hello white");
     }
-=======
->>>>>>> 7bad8b3 (Change greeting to everyone)
+
+    static void greetBlack()
+    {
+        Console.WriteLine("hello black");
+    }
 }
